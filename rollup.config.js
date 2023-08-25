@@ -30,7 +30,7 @@ export default fs
           css: (css) => {
             css.write(name + ".css");
           },
-          preprocess: sveltePreprocess(),
+          preprocess: sveltePreprocess()
         }),
 
         // If you have external dependencies installed from
